@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient}>
-        <RainbowKitProvider theme={theme}><App /></RainbowKitProvider>
+        <RainbowKitProvider theme={theme} locale="en-US"><App /></RainbowKitProvider>
       </QueryClientProvider>
     </WagmiProvider>
   </React.StrictMode>
